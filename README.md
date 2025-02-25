@@ -1,49 +1,65 @@
-# Security Compliance Update 2024
+### Mandatory GitHub Username & 2FA Compliance Update
 
-## Dear Convatec GitHub Users,
+To ensure security, consistency, and clear identification across our GitHub environment, all users must comply with the following username format and two-factor authentication (2FA) enforcement requirements.
 
-We hope this message finds you well. We are implementing critical security measures to enhance the protection of our GitHub environment and ensure the safety of sensitive company data.
+## 📌 GitHub Username Format
 
-### Activation of Two-Factor Authentication (2FA)
+#### For Internal CVT Employees:
 
-*Effective Date:* May 14th
+*   Format: FirstnameLastnameCvT
+    
+*   Example: JoanDenversCvT
+    
 
-As part of our commitment to security, we will be enabling Two-Factor Authentication (2FA) across all accounts within our GitHub organizations. This measure is crucial to prevent unauthorized access and safeguard your accounts.
+#### For Vendors/Contractors:
 
-*Action Required:*
-- Ensure you have a reliable method to receive 2FA codes, such as a mobile authenticator app or a security key.
-- Set up 2FA by the specified date to maintain access to your account.
+*   Format: FirstnameLastnameVendorName
+    
+*   Example: JohnPhilipsNexer
+    
 
-For detailed instructions on setting up 2FA, please visit [GitHub's 2FA setup guide](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/configuring-two-factor-authentication).
+All users must update their GitHub usernames to meet this standard immediately.
 
-### Update of User Details to Follow Internal Username Convention
+### 🔐  Mandatory Two-Factor Authentication (2FA)
 
-*Compliance Deadline:* May 14th
+To enhance security and protect company assets, 2FA is now required for all GitHub accounts.
 
-We are standardizing usernames across our GitHub instance to streamline user management and enhance security protocols.
+#### Action Required:
 
-*Username Format Requirements:*
-- For Convatec employees: FirstnameLastnameCvT
-- For vendors/contractors: FirstnameLastnameVendorName
 
-*Examples:*
-- Internal Convatec Employee: JaneAustenCvT
-- Vendor/Contractor: JohnPhilipsNexer
+1.  **Enable Two-Factor Authentication (2FA)**
+    
+    *   Navigate to **Settings** → **Password and authentication** → **Two-factor authentication**.
+        
+    *   Click **Enable two-factor authentication** and follow the on-screen instructions.
+        
+    *   For detailed steps, refer to [GitHub's 2FA Guide](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa).
+        
+2.  **Choose Your Authentication Method**
+    
+    *   **Authenticator App (Recommended)**: Use [Microsoft Authenticator](https://www.microsoft.com/en-us/security/mobile-authenticator-app) or [Google Authenticator](https://support.google.com/accounts/answer/1066447?hl=en) to generate 2FA codes.
+        
+    *   **Security Key**: If you have a YubiKey or similar hardware key, you can register it.
+        
+3.   **Secure Your Backup Codes**
 
-*Action Steps:*
-- Log into your GitHub account.
-- Navigate to your account settings.
-- Update your username to comply with the above format.
-- Confirm all profile details are correct, including Name and Email.
+-  🛠 **Download and store your backup codes in a secure location.**
 
-### *URGENT NOTICE:*
+    *   These are required if you lose access to your authentication method.
+    *   More details on backup codes can be found [here](https://docs.github.com/en/authentication/securing-your-account-with-two-factor-authentication-2fa/recovering-your-account-if-you-lose-your-2fa-credentials).
 
-*FAILURE TO COMPLY WITH THESE REQUIREMENTS BY MAY 14TH WILL RESULT IN AUTOMATIC ENFORCEMENT OF 2FA AND POTENTIAL AUTOMATIC REMOVAL FROM OUR GITHUB CLOUD INSTANCE BY GITHUB ITSELF.*
+        
+4.  **Confirm and Save Changes**
+    
+    *   Follow the GitHub prompts to finalize setup.
+        
+    *   Log out and log back in to ensure 2FA is working correctly.
+        
 
-### Need Help?
+## Failure to enable 2FA may result in restricted access to repositories.
 
-If you encounter any issues or have questions, please reach out to our support team by opening a ticket via MyServices.
+### Compliance Deadline: March 28th 2025
 
----
+All users must update their usernames and enable 2FA by March 28th 2025 to maintain access. Non-compliance may result in access revocation.
 
-We appreciate your prompt attention to these updates and thank you for helping us maintain a secure and efficient work environment.
+For any questions or assistance, open a ticket with Cloud & Platforms team
